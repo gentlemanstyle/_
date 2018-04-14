@@ -1,0 +1,151 @@
+html {
+	font-family: "Arvo", Georgia, serif;
+	font-size: 20px;
+}
+
+body {
+	color: #000;
+	background: rgba(0,0,0,0.2);
+	background-color: #FFFFDE;
+	background-image:url(../icon/favicon.png);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: center;
+	}
+h1,h2{
+	font-weight: 900;
+	padding-top: 8px;
+	text-align: center;
+}
+h1{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 35px;
+	padding-bottom: 22px;
+}
+h2{
+	letter-spacing: 1px;
+	font-size: 30px;
+	padding-bottom: 11px;
+}
+.h{
+	text-transform: uppercase;
+}
+img {
+	border-radius: 10px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: auto;
+}
+.hair{
+	width: 55%;
+	height: auto;
+}
+a{
+	color:#323232;
+}
+footer{
+	font-weight: 600;
+	padding-top: 50px;
+	text-align: right;
+
+}
+article{
+	padding:10px;
+	border: 2px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.7);
+	margin:2em 6em 2em;
+	text-align:justify;
+}
+.autor{
+	text-align: right;
+}
+
+
+#mainHeader {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.8em;
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	background-color: #C0C0C0;	
+	font-size: 32px;
+	
+}
+#mainHeader ul {
+	text-align: center;
+	display: block;
+	margin-right: 1em;
+}
+
+#mainHeader li {
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	display: inline-block;
+
+}
+
+#mainHeader nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+#mainHeader nav a:hover {
+	color: #FF9554;
+}
+#mainHeader .active{
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	background-color: #FFFFDE;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+#mobile ul {
+  display: none;
+  position: fixed;
+  justify-content: space-around;
+  background-color: #C0C0C0;
+  padding-top: 1px;
+  bottom: -5px;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+/*responzivita*/
+@media screen and (max-width: 600px) {
+	body{
+			background-size: contain;
+			background-attachment: fixed;
+	}
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 19px;
+	}
+	#mobile ul{
+		display:flex;
+			}
+	#mainHeader{
+		display: none;
+	}	
+	article{
+	font-size: 15px;
+	margin: 1em 3em 1em;
+	}	
+}
+@media screen and (min-width: 600px) {
+	#mainHeader {
+		padding: 0.6em;
+	}
+	#mainHeader ul {
+		display: block;
+	}
+}
