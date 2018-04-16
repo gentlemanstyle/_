@@ -30,8 +30,7 @@ h2{
 	padding-bottom: 11px;
 }
 .i{
-	margin:0% 23%;
-	width: 50%;
+	max-width: 50%;
 	height: auto;
 }
 .h{
@@ -51,8 +50,6 @@ h2{
 	padding-bottom: 5px;
 	border-bottom:10px solid #000;}
 #about img{
-	margin-top: 15px;
-	margin-left: 32%;
 	padding: 0px;
 	border:10px inset;
 	width: 30%;
@@ -63,6 +60,9 @@ h2{
 	text-align: center;
 	}
 img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	border-radius: 10px;
 	padding-top:5px;
 	padding-bottom: 5px;
