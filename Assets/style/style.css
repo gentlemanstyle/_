@@ -41,6 +41,22 @@ h2{
 	border-top: 1px solid #000;
     border-bottom: 4px solid #000;
 }
+#about h1{	
+	text-align: left;
+	padding-bottom: 5px;
+	border-bottom:10px solid #000;}
+#about img{
+	margin-top: 15px;
+	margin-left: 32%;
+	padding: 0px;
+	border:10px inset;
+	width: 30%;
+	height: auto;
+}
+#about p{
+	margin:0% 20%;
+	text-align: center;
+	}
 img {
 	border-radius: 10px;
 	padding-top:5px;
