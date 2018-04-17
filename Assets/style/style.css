@@ -125,7 +125,7 @@ article{
 }
 
 #mainHeader nav a:hover {
-	color: #FF9554;
+	color: red;
 }
 #mainHeader .active{
 	padding-left: 0.8em;
